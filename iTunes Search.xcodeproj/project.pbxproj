@@ -3,23 +3,41 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		14E8F019098A4D07145F1705 /* Pods_iTunes_Search.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 32096A0313BF59205D991635 /* Pods_iTunes_Search.framework */; };
+		8233086A265489B3007A6F68 /* MovieRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82330869265489B3007A6F68 /* MovieRow.swift */; };
+		8233086C2654ABAA007A6F68 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8233086B2654ABAA007A6F68 /* DetailView.swift */; };
+		824D607B269704D900CA00DB /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824D607A269704D900CA00DB /* FavoritesView.swift */; };
+		824D607E26970E6800CA00DB /* TrackDataModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 824D607C26970E6800CA00DB /* TrackDataModel.xcdatamodeld */; };
+		824D6080269712D500CA00DB /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 824D607F269712D500CA00DB /* Persistence.swift */; };
 		827DE1F72653E85200CF78FA /* iTunes_SearchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827DE1F62653E85200CF78FA /* iTunes_SearchApp.swift */; };
 		827DE1F92653E85200CF78FA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827DE1F82653E85200CF78FA /* ContentView.swift */; };
 		827DE1FB2653E85600CF78FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 827DE1FA2653E85600CF78FA /* Assets.xcassets */; };
 		827DE1FE2653E85600CF78FA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 827DE1FD2653E85600CF78FA /* Preview Assets.xcassets */; };
+		827DE2062653F3CD00CF78FA /* TrackData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827DE2052653F3CD00CF78FA /* TrackData.swift */; };
+		827DE2082653F41200CF78FA /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 827DE2072653F41200CF78FA /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		32096A0313BF59205D991635 /* Pods_iTunes_Search.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_iTunes_Search.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		82330869265489B3007A6F68 /* MovieRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieRow.swift; sourceTree = "<group>"; };
+		8233086B2654ABAA007A6F68 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		824D607A269704D900CA00DB /* FavoritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesView.swift; sourceTree = "<group>"; };
+		824D607D26970E6800CA00DB /* TrackDataModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TrackDataModel.xcdatamodel; sourceTree = "<group>"; };
+		824D607F269712D500CA00DB /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		827DE1F32653E85200CF78FA /* iTunes Search.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iTunes Search.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		827DE1F62653E85200CF78FA /* iTunes_SearchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTunes_SearchApp.swift; sourceTree = "<group>"; };
 		827DE1F82653E85200CF78FA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		827DE1FA2653E85600CF78FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		827DE1FD2653E85600CF78FA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		827DE1FF2653E85600CF78FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		827DE2052653F3CD00CF78FA /* TrackData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackData.swift; sourceTree = "<group>"; };
+		827DE2072653F41200CF78FA /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		B89A4203AE2316FFBFB3D8F8 /* Pods-iTunes Search.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTunes Search.release.xcconfig"; path = "Target Support Files/Pods-iTunes Search/Pods-iTunes Search.release.xcconfig"; sourceTree = "<group>"; };
+		D59D1C5CB8BE31D8CF15AFA4 /* Pods-iTunes Search.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iTunes Search.debug.xcconfig"; path = "Target Support Files/Pods-iTunes Search/Pods-iTunes Search.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,17 +45,58 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				14E8F019098A4D07145F1705 /* Pods_iTunes_Search.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06653009EF2E1B03AAFDF506 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D59D1C5CB8BE31D8CF15AFA4 /* Pods-iTunes Search.debug.xcconfig */,
+				B89A4203AE2316FFBFB3D8F8 /* Pods-iTunes Search.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		822972402698432A00618E2E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				827DE1F82653E85200CF78FA /* ContentView.swift */,
+				824D607A269704D900CA00DB /* FavoritesView.swift */,
+				82330869265489B3007A6F68 /* MovieRow.swift */,
+				8233086B2654ABAA007A6F68 /* DetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		822972412698433B00618E2E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				827DE2052653F3CD00CF78FA /* TrackData.swift */,
+				824D607C26970E6800CA00DB /* TrackDataModel.xcdatamodeld */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		822972422698434300618E2E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				827DE2072653F41200CF78FA /* NetworkManager.swift */,
+				824D607F269712D500CA00DB /* Persistence.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
 		827DE1EA2653E85200CF78FA = {
 			isa = PBXGroup;
 			children = (
 				827DE1F52653E85200CF78FA /* iTunes Search */,
 				827DE1F42653E85200CF78FA /* Products */,
+				06653009EF2E1B03AAFDF506 /* Pods */,
+				D5E0A03B16A93979C02BCA9F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -53,7 +112,9 @@
 			isa = PBXGroup;
 			children = (
 				827DE1F62653E85200CF78FA /* iTunes_SearchApp.swift */,
-				827DE1F82653E85200CF78FA /* ContentView.swift */,
+				822972412698433B00618E2E /* Model */,
+				822972402698432A00618E2E /* View */,
+				822972422698434300618E2E /* Controller */,
 				827DE1FA2653E85600CF78FA /* Assets.xcassets */,
 				827DE1FF2653E85600CF78FA /* Info.plist */,
 				827DE1FC2653E85600CF78FA /* Preview Content */,
@@ -69,6 +130,14 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		D5E0A03B16A93979C02BCA9F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				32096A0313BF59205D991635 /* Pods_iTunes_Search.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -76,9 +145,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 827DE2022653E85600CF78FA /* Build configuration list for PBXNativeTarget "iTunes Search" */;
 			buildPhases = (
+				DBC0588B4ED4064E38A519C7 /* [CP] Check Pods Manifest.lock */,
 				827DE1EF2653E85200CF78FA /* Sources */,
 				827DE1F02653E85200CF78FA /* Frameworks */,
 				827DE1F12653E85200CF78FA /* Resources */,
+				325C5B4618ACA4ED72F5C9F8 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,11 +204,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		325C5B4618ACA4ED72F5C9F8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iTunes Search/Pods-iTunes Search-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-iTunes Search/Pods-iTunes Search-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-iTunes Search/Pods-iTunes Search-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DBC0588B4ED4064E38A519C7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-iTunes Search-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		827DE1EF2653E85200CF78FA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				824D6080269712D500CA00DB /* Persistence.swift in Sources */,
+				827DE2082653F41200CF78FA /* NetworkManager.swift in Sources */,
+				8233086C2654ABAA007A6F68 /* DetailView.swift in Sources */,
+				8233086A265489B3007A6F68 /* MovieRow.swift in Sources */,
+				824D607E26970E6800CA00DB /* TrackDataModel.xcdatamodeld in Sources */,
+				827DE2062653F3CD00CF78FA /* TrackData.swift in Sources */,
+				824D607B269704D900CA00DB /* FavoritesView.swift in Sources */,
 				827DE1F92653E85200CF78FA /* ContentView.swift in Sources */,
 				827DE1F72653E85200CF78FA /* iTunes_SearchApp.swift in Sources */,
 			);
@@ -264,6 +384,7 @@
 		};
 		827DE2032653E85600CF78FA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D59D1C5CB8BE31D8CF15AFA4 /* Pods-iTunes Search.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -286,6 +407,7 @@
 		};
 		827DE2042653E85600CF78FA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B89A4203AE2316FFBFB3D8F8 /* Pods-iTunes Search.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -328,6 +450,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		824D607C26970E6800CA00DB /* TrackDataModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				824D607D26970E6800CA00DB /* TrackDataModel.xcdatamodel */,
+			);
+			currentVersion = 824D607D26970E6800CA00DB /* TrackDataModel.xcdatamodel */;
+			path = TrackDataModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 827DE1EB2653E85200CF78FA /* Project object */;
 }
